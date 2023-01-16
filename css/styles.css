@@ -23,3 +23,18 @@ thead {
 .azzurro {
     background-color: #B1E5F2;
 }
+
+.imma-footer{
+    width: 270px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imma-footer1{
+ background-image: url(../img/monitor.jpg);
+}
+
+#imma-footer2{
+    background-image: url(../img/graph.jpg);
+   }
