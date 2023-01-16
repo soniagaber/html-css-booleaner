@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+main, footer{margin: 7px;}
+
 #sfondo-azzurro {
     width: 100%;
     height: 170px;
@@ -18,6 +20,14 @@
     margin-top: 80px;
 }
 
+h1 {
+    font-size: 51px;
+}
+
+#didascalia {
+    font-size: 12px;
+}
+
 thead {
     background-color: #20A9E5;
     color: white;
@@ -27,21 +37,43 @@ thead {
     background-color: #B1E5F2;
 }
 
-.imma-footer{
+#th1 {
+    width: 25%;
+    text-align: left;
+}
+
+#th2 {
+    width: 25%;
+    text-align: left;
+}
+
+#th3 {
+    text-align: left;
+}
+
+.imma-footer {
     width: 270px;
-    height: 250px;
+    height: 190px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#imma-footer1{
- background-image: url(../img/monitor.jpg);
+#imma-footer1 {
+    background-image: url(../img/monitor.jpg);
 }
 
-#imma-footer2{
+#imma-footer2 {
     background-image: url(../img/graph.jpg);
-   }
+}
 
-#scrittoda, #titolofondo{
+#scrittoda,
+#titolofondo {
     color: #7E7E7E;
 }
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{margin-top: 17px;}
